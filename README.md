@@ -1,9 +1,9 @@
 # Twitter-data-extraction
 Extraction of data from Twitter.
 
-Programming language : JAVA
-IDE : Eclipse
-Name of the Twitter account used : Alexa
+Programming language : JAVA.
+IDE : Eclipse.
+Name of the Twitter account used : Alexa.
 Twitter App name : Twitter_Access_App_1
 
 Twitter4j library is downloaded from its official webpage and extracted after JDK and Eclipse IDE is installed. 
