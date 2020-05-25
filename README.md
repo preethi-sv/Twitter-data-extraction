@@ -1,25 +1,25 @@
-# Twitter-data-extraction
-Extraction of data from Twitter.
+# Twitter Data Extraction 
 
-Programming language : JAVA.
-
-IDE : Eclipse.
+Extraction of data from Twitter in Java using Twitter4j.
 
 Name of the Twitter account used : Alexa.
 
 Twitter App name : Twitter_Access_App_1
 
-Twitter4j library is downloaded from its official webpage and extracted after JDK and Eclipse IDE is installed. 
-The JAR file twitter4j-core-4.0.4.jar is added to the application class path. 
-An app is created in Twitter by giving a name for the app, an URL. 
-Access level can be changed in the app. Access token and secret is requested from the twitter. 
-Finally, consumer key, consumer secret, access token and access token secret are copied. 
-In the Java project, all the required twitter4j classes such as ConfigurationBuild, TwitterFactory, Twitter,
- Status, Query, Trends, IDs, User, etc are imported and the following are implemented.
+## Steps 
+Twitter4j library is downloaded from its official webpage and extracted after JDK and Eclipse IDE is installed. <br>
+The JAR file twitter4j-core-4.0.4.jar is added to the application class path. <br>
+An app is created in Twitter by giving a name for the app, an URL. <br>
+Access level can be changed in the app. Access token and secret is requested from the twitter. <br>
+Finally, consumer key, consumer secret, access token and access token secret are copied. <br>
 
-1.Get Twitter Timeline of the user.
-2.Get the Trends on Twitter based on user input WOEID (Where On Earth Identifier)
-3.Post and Delete Status
-4.Send personal messages to follower.
-5.Search tweets using Keywords.
-6.Get Friends and Followers of any public user.
+## Imports
+In the Java project, all the required twitter4j classes such as <code>ConfigurationBuild, TwitterFactory, Twitter, Status, Query, Trends, IDs, User</code> etc are imported and the following are implemented.
+
+## Functionalities
+#### Get Twitter Timeline of the user.
+#### Get the Trends on Twitter based on user input WOEID (Where On Earth Identifier)
+#### Post and Delete Status
+#### Send personal messages to follower.
+#### Search tweets using Keywords.
+#### Get Friends and Followers of any public user.
